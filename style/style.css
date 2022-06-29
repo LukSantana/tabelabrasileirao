@@ -18,7 +18,7 @@ body {
 
 .tabela {
   display: grid;
-  grid-template-columns: 40px 180px repeat(8, 40px) 50px;
+  grid-template-columns: 40px 180px repeat(8, 40px) 55px;
   grid-template-rows: repeat(22, 30px);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
