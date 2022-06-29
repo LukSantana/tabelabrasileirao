@@ -34,35 +34,35 @@ body {
   grid-area: 1 / 3 / 2 / 4;
 }
 
-.jogos {
+.jogosSigla {
   grid-area: 1 / 4 / 2 / 5;
 }
 
-.vitorias {
+.vitoriasSigla {
   grid-area: 1 / 5 / 2 / 6;
 }
 
-.empates {
+.empatesSigla {
   grid-area: 1 / 6 / 2 / 7;
 }
 
-.derrotas {
+.derrotasSigla {
   grid-area: 1 / 7 / 2 / 8;
 }
 
-.golspro {
+.golsproSigla {
   grid-area: 1 / 8 / 2 / 9;
 }
 
-.golscontra {
+.golscontraSigla {
   grid-area: 1 / 9 / 2 / 10;
 }
 
-.saldogols {
+.saldogolsSigla {
   grid-area: 1 / 10 / 2 / 11;
 }
 
-.porcentagem {
+.porcentagemSigla {
   grid-area: 1 / 11 / 2 / 12;
 }
 
@@ -152,6 +152,7 @@ body {
   align-items: center;
   justify-content: center;
   border-top: 1px solid #DDDDDD;
+  background-color: #F7F7F7;
 }
 
 /* ESTATISTICAS */
@@ -162,6 +163,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.vitorias, .derrotas, .golscontra, .porcentagem{
+  background-color: #F7F7F7;
 }
 
 /* LEGENDA */
